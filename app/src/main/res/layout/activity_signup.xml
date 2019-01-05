@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/logo_erpviet_transperent"
+            android:tint="@color/white" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_weight="5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinner_field"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatSpinner
+                    android:id="@+id/spinner_scale"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+            <!--<vn.izisolution.views.ValidateEditText-->
+            <!--android:id="@+id/input_field"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@drawable/bg_input_white"-->
+            <!--android:hint="@string/signup_hint_field"-->
+            <!--android:textColorHint="@color/color_text_hint"-->
+            <!--android:textSize="@dimen/text_small" />-->
+
+            <!--<vn.izisolution.views.ValidateEditText-->
+            <!--android:id="@+id/input_scale"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_marginTop="16dp"-->
+            <!--android:background="@drawable/bg_input_white"-->
+            <!--android:hint="@string/signup_hint_scale"-->
+            <!--android:textColorHint="@color/color_text_hint"-->
+            <!--android:textSize="@dimen/text_small" />-->
+
+            <vn.izisolution.views.ValidateEditText
+                android:id="@+id/input_company"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:hint="@string/signup_hint_company"
+                android:textColorHint="@color/color_text_hint"
+                android:textSize="@dimen/text_small" />
+
+            <vn.izisolution.views.ValidateEditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:hint="@string/signup_hint_email"
+                android:textColorHint="@color/color_text_hint"
+                android:textSize="@dimen/text_small" />
+
+            <vn.izisolution.views.ValidateEditText
+                android:id="@+id/input_phone"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:hint="@string/signup_hint_phone"
+                android:textColorHint="@color/color_text_hint"
+                android:textSize="@dimen/text_small" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="16dp"
+                android:background="@drawable/bg_input_white"
+                android:orientation="horizontal">
+
+                <vn.izisolution.views.ValidateEditText
+                    android:id="@+id/input_domain"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@color/bg_null"
+                    android:hint="@string/signup_hint_domain"
+                    android:textColorHint="@color/color_text_hint"
+                    android:textSize="@dimen/text_small" />
+
+                <vn.izisolution.views.FontTextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="8dp"
+                    android:text="@string/prefix_domain"
+                    android:textColor="@color/color_text_hint" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatCheckBox
+                    android:id="@+id/checkbox_policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:buttonTint="@color/white"
+                    android:text="@string/signup_accept_policy"
+                    android:textAllCaps="true"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_smallest" />
+
+                <vn.izisolution.views.FontTextView
+                    android:id="@+id/policy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:text="@string/signup_policy"
+                    android:textAllCaps="true"
+                    android:textColor="#01579B"
+                    android:textSize="@dimen/text_smallest" />
+
+            </LinearLayout>
+
+            <vn.izisolution.views.FontTextView
+                android:id="@+id/signup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:background="@drawable/btn_onclick_signup"
+                android:text="@string/signup"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_small" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

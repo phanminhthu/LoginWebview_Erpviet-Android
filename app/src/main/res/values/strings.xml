@@ -1,0 +1,37 @@
+<resources>
+    <!--general-->
+    <string name="app_name">ERPVIET</string>
+    <string name="prefix_domain">.erpviet.vn</string>
+    <!--odooviet.vn-->
+    <string name="create_an_account">Đăng ký dùng thử ERPVIET Cloud</string>
+    <string name="login">Đăng nhập</string>
+    <string name="double_tap_to_exits">Nhấn Back thêm một lần nữa để thoát ứng dụng</string>
+
+    <!--error-->
+    <string name="contact_admin">Vui lòng liên hệ admin để được giải quyết</string>
+    <!--message-->
+    <string name="message_time_out">Kết nối quá thời hạn, mất quá nhiều thời gian để nhận phản hồi
+ Xin vui lòng thử lại sau</string>
+
+    <!--signup values-->
+    <string name="signup_hint_field">Lĩnh vực (*)</string>
+    <string name="signup_hint_scale">Quy mô doanh nghiệp (*)</string>
+    <string name="signup_hint_company">Công ty/Người dùng (*)</string>
+    <string name="signup_hint_email">Email (*)</string>
+    <string name="signup_hint_phone">Điện thoại (*)</string>
+    <string name="signup_hint_domain">Tên miền(*)</string>
+    <string name="signup_accept_policy">Tôi đồng ý với</string>
+    <string name="signup_policy">Điều khoản sử dụng</string>
+    <string name="signup">Đăng ký</string>
+
+    <string name="signin_hint_company">Tên miền</string>
+    <string name="signin_hint_email">Email</string>
+    <string name="signin_hint_password">Mật khẩu</string>
+
+    <!--login values-->
+    <string-array name="array_languages">
+        <item>Tiếng Việt</item>
+        <item>Tiếng Anh</item>
+    </string-array>
+
+</resources>

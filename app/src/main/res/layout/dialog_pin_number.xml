@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:pinview="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <!--<vn.izisolution.views.codeinput.CodeInput-->
+    <!--android:id="@+id/input_otp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="20dp"-->
+    <!--android:padding="20dp"-->
+    <!--app:codes="6"-->
+    <!--app:hint_color="#77ce9d"-->
+    <!--app:hint_text="Mã OTP"-->
+    <!--app:text_color="#b12eff"-->
+    <!--app:underline_color="#457ad1"-->
+    <!--app:underline_selected_color="#9e1ace" />-->
+
+    <!--<vn.izisolution.views.codeinput.CodeInput-->
+    <!--android:id="@+id/pairing"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_marginTop="50dp"-->
+    <!--android:padding="20dp"-->
+    <!--app:hint_text="Pairing code" />-->
+
+    <vn.izisolution.views.FontTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Nhập mã OTP đã được gửi tới số điện thoại của bạn"
+        android:textColor="@color/textColor"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="60dp"
+        android:textSize="@dimen/text_largest" />
+
+    <com.dpizarro.pinview.library.PinView
+        android:id="@+id/pinView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        pinview:colorSplit="@color/color_splits"
+        pinview:colorTextPinBox="@android:color/black"
+        pinview:colorTextTitles="@color/color_title"
+        pinview:deleteOnClick="false"
+        pinview:drawablePinBox="@drawable/custom_pinbox"
+        pinview:keyboardMandatory="false"
+        pinview:nativePinBox="false"
+        pinview:numberCharacters="6"
+        pinview:numberPinBoxes="6"
+        pinview:password="false"
+        pinview:sizeSplit="@dimen/size_split"
+        pinview:split="-"
+        pinview:textSizePinBox="@dimen/size_text_pinbox"
+        pinview:textSizeTitles="@dimen/size_titles" />
+
+</LinearLayout>

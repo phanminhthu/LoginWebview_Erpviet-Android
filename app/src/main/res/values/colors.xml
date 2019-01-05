@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#a3488a</color>
+    <color name="colorPrimaryDark">#47253e</color>
+    <color name="colorAccent">#a3488a</color>
+    <color name="colorAccent_deselected">#B389FA</color>
+    <color name="color_login">#0D9887</color>
+    <color name="color_text">#4f4f4f</color>
+    <color name="color_text_hint">#9d9d9d</color>
+
+    <color name="bg_null">#00000000</color>
+    <color name="bg_main">#ffffff</color>
+    <color name="bg_main_deselected">#f8f8f8</color>
+    <color name="divider">#acacac</color>
+    <color name="bg_transperent_15">#26000000</color>
+    <color name="white">#ffffff</color>
+
+    <!--codeinput-->
+    <color name="underline_default_color">#CCCCCC</color>
+    <color name="underline_selected_color">#000</color>
+    <color name="hintColor">#CCCCCC</color>
+    <color name="textColor">#000</color>
+</resources>

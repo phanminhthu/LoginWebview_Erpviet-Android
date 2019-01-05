@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ERPVIET</string>
+
+    <string name="create_an_account">Create account</string>
+    <string name="login">Login</string>
+    <!--error-->
+    <string name="contact_admin">Error!!! Contact admin please.</string>
+    <!--message-->
+    <string name="message_time_out">Connect time out</string>
+
+    <!--signup values-->
+    <string name="signup_hint_field">Field (*)</string>
+    <string name="signup_hint_scale">Scale (*)</string>
+    <string name="signup_hint_company">Company (*)</string>
+    <string name="signup_hint_email">Email (*)</string>
+    <string name="signup_hint_phone">Phone (*)</string>
+    <string name="signup_hint_domain">Domain(IZISOLUTION.ERPVIET.VN) (*)</string>
+    <string name="signup_accept_policy">I accept with</string>
+    <string name="signup_policy">The term</string>
+    <string name="signup">Start Now</string>
+
+    <!--login values-->
+    <string-array name="array_languages">
+        <item>VietNamese</item>
+        <item>English</item>
+    </string-array>
+</resources>
